@@ -8,7 +8,11 @@ Jupyter Notebook/ Google Colaboratory
 DESIGNING THE PROJECT Confirmed, deaths and recovered are kept in different CSV files. That makes difficult for plotting them in the same data visualization. This COVID-19 Data processing runs the following steps:
 
 1.Download raw CSV dataset from JHU CSSE public Github page.
+
 2.Load raw CSV dataset and extract the common date list.
+
 3.Merges the raw confirmed, deaths, and recovered CSV data into one DataFrame.
+
 4.Performs data cleanings due to missing values, wrong datatypes and cases from cruise ships.
+
 5.Data Aggregation: Add an active case column Active, which is calculated by active_case = confirmed — deaths — recovered. Aggregate data into Country/Region wise and group them by Date and Country/Region. After that, add day wise New cases, New deaths and New recovered by deducting the corresponding cumulative data on the previous day.
