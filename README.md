@@ -1,5 +1,5 @@
 # Covid-19-Data-Preprocessing
-Covid – 19 Data Processing is a Program which can load, merge, clean and aggregate the COVID-19 time series data. This program can give graphs and stats about any country in the world. It is designed by using Python Language, Matplotlib, Seaborn, Alter, Numpy and Pandas.
+Covid – 19 Data Processing is a Program which can load, merge, clean and aggregate the COVID-19 time series data. This program can give graphs and stats about any country in the world. It is designed by using Python Language, Matplotlib, Seaborn, Altair, Numpy and Pandas.
 
 It takes the updated data from the web and show the current stats of Covid – 19 such as Confirmed, Recovered, Death and Active cases around each country for which the user requires. Further this program also compares data of newly confirmed cases between multiple countries.
 
